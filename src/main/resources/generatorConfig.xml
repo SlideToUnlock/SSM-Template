@@ -25,7 +25,7 @@
         </javaTypeResolver>
 
         <!-- !!!! Model Configurations !!!! -->
-        <javaModelGenerator targetPackage="com.ssm.pojo" targetProject="./src/main/java">
+        <javaModelGenerator targetPackage="pojo" targetProject="./src/main/resources">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
@@ -36,7 +36,7 @@
         </sqlMapGenerator>
 
         <!-- !!!! Mapper Interface Configurations !!!! -->
-        <javaClientGenerator targetPackage="com.ssm.dao" targetProject="./src/main/java" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="dao" targetProject="./src/main/resources" type="XMLMAPPER">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
